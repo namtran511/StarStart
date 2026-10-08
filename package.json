@@ -1,0 +1,14 @@
+{
+  "name": "starstart",
+  "version": "0.1.0",
+  "private": true,
+  "description": "StarStart — a thoughtful AI workbench for small teams",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
