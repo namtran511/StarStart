@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101311">
+    <meta name="description" content="StarStart gives small teams a clear, human-guided way to put Claude to work on repeatable tasks.">
+    <meta property="og:title" content="StarStart — Make room for the work that matters">
+    <meta property="og:description" content="A thoughtful AI operations desk for teams just getting started. Turn repeatable work into reviewable workflows, powered by Claude.">
+    <meta property="og:type" content="website">
+    <title>StarStart — Make room for the work that matters</title>
+    <link rel="icon" type="image/svg+xml" href="/starstart.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="nav-shell">
+        <a class="brand" href="#top" aria-label="StarStart home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 36 36" fill="none">
+              <path d="M18 2.8 21.6 14.4 33.2 18l-11.6 3.6L18 33.2l-3.6-11.6L2.8 18l11.6-3.6L18 2.8Z" fill="currentColor"/>
+              <circle cx="18" cy="18" r="3.1" fill="#101311"/>
+            </svg>
+          </span>
+          <span class="brand-name">starstart<span class="brand-period">.</span></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="#product">Product</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#principles">Our principles</a>
+          <a class="nav-cta" href="#early-access">Meet StarStart <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero dark-section" aria-labelledby="hero-title">
+        <div class="hero-grid-pattern" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <div class="eyebrow eyebrow-light"><span class="eyebrow-star">✳</span> A new kind of AI workbench</div>
+            <h1 id="hero-title">Make room for the work <span>that matters.</span></h1>
+            <p class="hero-lede">StarStart helps small teams turn repeatable busywork into clear, reviewable workflows — with Claude doing the heavy thinking and your team staying in control.</p>
+            <div class="hero-actions">
+              <a class="button button-lime" href="#product">Explore the live demo <span aria-hidden="true">↓</span></a>
+              <a class="text-link text-link-light" href="#early-access">Get early access <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-note"><span class="status-dot" aria-hidden="true"></span> Early stage · Building our first workflows</div>
+          </div>
+
+          <div class="hero-visual" aria-label="Preview of the StarStart workflow workspace">
+            <div class="hero-star star-a" aria-hidden="true">✳</div>
+            <div class="hero-star star-b" aria-hidden="true">✳</div>
+            <div class="orbit orbit-one" aria-hidden="true"></div>
+            <div class="orbit orbit-two" aria-hidden="true"></div>
+            <div class="workspace-card">
+              <div class="workspace-topbar">
+                <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+                <div class="workspace-top-title">starstart <span>/</span> workflows</div>
+                <div class="workspace-avatar" aria-label="Your workspace">S</div>
+              </div>
+              <div class="workspace-body">
+                <aside class="workspace-rail" aria-hidden="true">
+                  <span class="rail-logo">✳</span>
+                  <span class="rail-icon rail-active">
+                    <svg viewBox="0 0 20 20" fill="none"><rect x="3" y="3" width="5" height="5" rx="1.2" stroke="currentColor" stroke-width="1.5"/><rect x="12" y="3" width="5" height="5" rx="1.2" stroke="currentColor" stroke-width="1.5"/><rect x="3" y="12" width="5" height="5" rx="1.2" stroke="currentColor" stroke-width="1.5"/><path d="M12 14.5h5m-2.5-2.5v5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  </span>
+                  <span class="rail-icon">
+                    <svg viewBox="0 0 20 20" fill="none"><path d="M10 3.1 12 8l4.9 2-4.9 2-2 4.9L8 12l-4.9-2L8 8l2-4.9Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+                  </span>
+                  <span class="rail-icon">
+                    <svg viewBox="0 0 20 20" fill="none"><path d="M4 5.5h12M4 10h8m-8 4.5h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="14.5" cy="10" r="1.5" stroke="currentColor" stroke-width="1.4"/></svg>
+                  </span>
+                  <span class="rail-bottom">?</span>
+                </aside>
+                <div class="workspace-content">
+                  <div class="workspace-kicker">ILLUSTRATIVE WORKSPACE <span>·</span> SYNTHETIC DATA</div>
+                  <div class="workspace-heading-row">
+                    <div><div class="workspace-greeting">Good morning, Sam <span>✳</span></div><div class="workspace-subheading">Here’s what’s moving today.</div></div>
+                    <div class="today-pill"><span></span> Today</div>
+                  </div>
+                  <div class="workspace-metrics">
+                    <div class="metric-card"><span class="metric-icon icon-lilac">↗</span><span class="metric-label">Workflows</span><strong>03</strong><small>ready to run</small></div>
+                    <div class="metric-card"><span class="metric-icon icon-green">✓</span><span class="metric-label">Need your review</span><strong>01</strong><small>nothing ships alone</small></div>
+                    <div class="metric-card"><span class="metric-icon icon-peach">✳</span><span class="metric-label">Time returned</span><strong>—</strong><small>not yet measured</small></div>
+                  </div>
+                  <div class="workflow-preview">
+                    <div class="preview-heading"><div><strong>Customer reply, with context</strong><span>Support inbox <i>·</i> Updated just now</span></div><span class="preview-menu">···</span></div>
+                    <div class="flow-row">
+                      <div class="flow-check"><span>✓</span></div>
+                      <div><strong>Read the request</strong><small>Intent and key details found</small></div>
+                      <span class="flow-state">DONE</span>
+                    </div>
+                    <div class="flow-row">
+                      <div class="flow-check"><span>✓</span></div>
+                      <div><strong>Draft a thoughtful reply</strong><small>Claude · grounded in your guide</small></div>
+                      <span class="flow-state">DONE</span>
+                    </div>
+                    <div class="flow-row flow-waiting">
+                      <div class="flow-review"><span>↗</span></div>
+                      <div><strong>Review before sending</strong><small>Your approval is the last step</small></div>
+                      <button class="review-button" type="button" tabindex="-1" aria-hidden="true">Review</button>
+                    </div>
+                  </div>
+                  <div class="workspace-footer"><span class="workspace-foot-star">✳</span> Thoughtful work, with a human in the loop <span class="workspace-footer-line"></span> PREVIEW</div>
+                </div>
+              </div>
+            </div>
+            <div class="floating-note"><span class="floating-note-icon">↗</span><span>Ready when<br>you are.</span><span class="floating-note-dot"></span></div>
+          </div>
+        </div>
+        <div class="hero-bottom"><span>BUILT FOR SMALL TEAMS WITH BIG PLANS</span><span class="hero-bottom-rule"></span><span>POWERED BY CLAUDE</span><span class="hero-bottom-mark">✳</span></div>
+      </section>
+
+      <section class="intro section-pad" id="product">
+        <div class="intro-top">
+          <div class="eyebrow eyebrow-ink"><span class="eyebrow-star">✳</span> The next step after chat</div>
+          <p class="intro-statement">Great AI should feel less like another tab and more like <span>a teammate who knows the plan.</span></p>
+        </div>
+        <div class="intro-bottom">
+          <p>Teams shouldn’t have to write the same notes, sort the same requests, or rebuild the same first drafts by hand. StarStart turns a clear task into a repeatable process your team can understand, improve, and approve.</p>
+          <a class="text-link text-link-dark" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+
+      <section class="demo-section section-pad" id="how-it-works">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow eyebrow-ink"><span class="eyebrow-star">✳</span> A workflow with a point of view</div>
+            <h2>From “I’ll do it later”<br>to <span>done, thoughtfully.</span></h2>
+          </div>
+          <p class="section-heading-copy">Start with the work slowing you down. StarStart helps Claude organize it into useful steps, then brings you in when judgment matters.</p>
+        </div>
+
+        <div class="demo-layout">
+          <div class="demo-main">
+            <div class="demo-window">
+              <div class="demo-window-bar">
+                <div class="demo-window-brand"><span class="mini-mark">✳</span> starstart <span class="demo-slash">/</span> run a workflow</div>
+                <div class="demo-live-status"><span class="status-dot" id="api-dot"></span><span id="api-label">Preview mode</span></div>
+              </div>
+              <div class="demo-window-content">
+                <div class="demo-steps" role="tablist" aria-label="Choose a workflow">
+                  <button class="demo-step is-active" type="button" role="tab" aria-selected="true" data-scenario="support">
+                    <span class="step-number">01</span><span><strong>Customer support</strong><small>Reply with care</small></span><span class="step-arrow" aria-hidden="true">↗</span>
+                  </button>
+                  <button class="demo-step" type="button" role="tab" aria-selected="false" data-scenario="meeting">
+                    <span class="step-number">02</span><span><strong>Meeting follow-up</strong><small>Turn notes into action</small></span><span class="step-arrow" aria-hidden="true">↗</span>
+                  </button>
+                  <button class="demo-step" type="button" role="tab" aria-selected="false" data-scenario="lead">
+                    <span class="step-number">03</span><span><strong>New lead</strong><small>Make the first touch personal</small></span><span class="step-arrow" aria-hidden="true">↗</span>
+                  </button>
+                  <div class="steps-note"><span>✳</span> Three ideas for a calmer workday.</div>
+                </div>
+
+                <div class="demo-stage">
+                  <div class="demo-stage-heading">
+                    <div><div class="demo-kicker">YOUR WORKFLOW</div><h3 id="demo-title">Thoughtful customer reply</h3></div>
+                    <span class="draft-tag"><span></span> DRAFT</span>
+                  </div>
+                  <label class="demo-input-label" for="demo-input">Give Claude the context it needs</label>
+                  <textarea id="demo-input" maxlength="1400" spellcheck="true">A customer’s order arrived two days late and the ceramic mug is chipped. They love the design and ask if we can send a replacement before Friday. Our policy: apologize, offer a replacement at no charge, and don’t promise a delivery date until the warehouse confirms.</textarea>
+                  <div class="input-meta"><span>✳ Context stays attached to the task</span><span id="character-count">0 / 1,400</span></div>
+                  <div class="demo-run-row">
+                    <div class="demo-model-note"><span class="model-spark">✳</span><span id="model-note">Claude-powered when connected</span></div>
+                    <button class="button button-dark" id="run-demo" type="button">Run workflow <span aria-hidden="true">↗</span></button>
+                  </div>
+                  <div class="output-panel" aria-live="polite" aria-atomic="true">
+                    <div class="output-topline"><span class="output-label">STARSTART SUGGESTS</span><span class="output-mode" id="output-mode">SAMPLE PREVIEW</span></div>
+                    <div class="output-text" id="output-text">
+                      <p><strong>Next step</strong> — Prepare a no-charge replacement and ask the warehouse to confirm its dispatch window.</p>
+                      <p><strong>Draft reply</strong> — “I’m sorry your mug arrived chipped and that your order was late. I’m arranging a replacement at no charge. I’ll confirm the delivery timing as soon as our warehouse gets back to me.”</p>
+                    </div>
+                    <div class="output-foot"><span class="approval-check">✓</span> Review this draft before anything is sent <button class="copy-button" id="copy-output" type="button">Copy draft <span aria-hidden="true">⧉</span></button></div>
+                  </div>
+                  <p class="demo-disclosure"><span>ⓘ</span> Sample text only. When Claude is connected, your prompt is sent to Anthropic for a response. Don’t use real customer data here.</p>
+                </div>
+              </div>
+            </div>
+            <div class="demo-caption"><span>AN INTERACTIVE PRODUCT PREVIEW</span><span>01 — 03 <span aria-hidden="true">✳</span></span></div>
+          </div>
+
+          <aside class="demo-aside">
+            <div class="aside-number">01 <span>/ 03</span></div>
+            <h3>Useful structure.<br><span>Room for judgment.</span></h3>
+            <p>StarStart gives each task a goal, context, and finish line. Claude can help with the thinking; your team sets the rules and makes the calls.</p>
+            <div class="aside-divider"></div>
+            <div class="aside-point"><span class="aside-point-icon">↳</span><p><strong>A focused task</strong><br>No blank-page prompting required.</p></div>
+            <div class="aside-point"><span class="aside-point-icon">⤴</span><p><strong>Useful context</strong><br>Instructions stay with each workflow.</p></div>
+            <div class="aside-point"><span class="aside-point-icon">✓</span><p><strong>A human at the finish</strong><br>Review before an action leaves the desk.</p></div>
+            <a class="text-link text-link-dark aside-link" href="#principles">Our approach to AI <span aria-hidden="true">↗</span></a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="principles-section dark-section" id="principles">
+        <div class="principles-art" aria-hidden="true">
+          <div class="principle-ring principle-ring-one"></div><div class="principle-ring principle-ring-two"></div><div class="principle-ring principle-ring-three"></div>
+          <div class="principle-sun">✳</div>
+          <div class="principle-label label-top">HUMAN INTENT</div><div class="principle-label label-right">USEFUL AI</div><div class="principle-label label-bottom">REAL PROGRESS</div>
+          <div class="principle-orbit-dot"></div>
+        </div>
+        <div class="principles-copy">
+          <div class="eyebrow eyebrow-light"><span class="eyebrow-star">✳</span> Built for responsible momentum</div>
+          <h2>Helpful by design.<br><span>Human by default.</span></h2>
+          <p class="principles-lede">AI should make people more capable, not less involved. We’re building StarStart around a simple idea: thoughtful automation leaves the meaningful decisions with you.</p>
+          <div class="principle-list">
+            <div><span class="principle-list-mark">01</span><p><strong>People set the intent.</strong> Workflows start with your goal, your instructions, and your boundaries.</p></div>
+            <div><span class="principle-list-mark">02</span><p><strong>AI helps with the first draft.</strong> Claude can organize, summarize, and propose a next step.</p></div>
+            <div><span class="principle-list-mark">03</span><p><strong>People approve the action.</strong> Nothing is sent or changed by this preview.</p></div>
+          </div>
+          <div class="claude-note"><span class="claude-symbol">✳</span><span>Thoughtful workflows, designed for Claude.</span><span class="claude-note-dot"></span></div>
+        </div>
+      </section>
+
+      <section class="founder-section section-pad">
+        <div class="founder-index"><span>01—25</span><span>OUR STARTING POINT</span></div>
+        <div class="founder-main">
+          <div class="eyebrow eyebrow-ink"><span class="eyebrow-star">✳</span> A company in its first chapter</div>
+          <h2>Big ambitions.<br><span>Honest beginnings.</span></h2>
+          <p class="founder-text">StarStart is an early-stage AI startup exploring one practical question: how can small teams get reliable value from AI without handing away the decisions that define their work?</p>
+          <p class="founder-text founder-text-secondary">We’re developing our first product workflows now. This preview shows the product direction and a Claude API integration path. We’re looking for thoughtful early partners who want to shape what gets built next.</p>
+          <a class="button button-dark founder-button" href="#early-access">Help shape what’s next <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="founder-aside">
+          <div class="founder-stamp"><span class="stamp-star">✳</span><span>START<br>WHERE<br>IT MATTERS</span><span class="stamp-year">2026</span></div>
+          <div class="founder-caption"><span>BUILT FOR THE TEAMS BUILDING TOMORROW</span><span class="founder-caption-rule"></span><span>01 / 03</span></div>
+        </div>
+      </section>
+
+      <section class="access-section section-pad" id="early-access">
+        <div class="access-orb access-orb-one" aria-hidden="true"></div><div class="access-orb access-orb-two" aria-hidden="true"></div>
+        <div class="access-inner">
+          <div class="eyebrow eyebrow-light"><span class="eyebrow-star">✳</span> The beginning looks good on you</div>
+          <h2>Make your next move<br><span>with more room.</span></h2>
+          <p>Tell us where your team gets stuck. We’re gathering early feedback as we shape the first StarStart workflows.</p>
+          <button class="button button-lime access-button" type="button" id="open-contact">Join the early conversation <span aria-hidden="true">↗</span></button>
+          <div class="access-footnote"><span class="access-footnote-star">✳</span> No launch promises. Just a real conversation.</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top">
+        <a class="brand footer-brand" href="#top" aria-label="StarStart home">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 36 36" fill="none"><path d="M18 2.8 21.6 14.4 33.2 18l-11.6 3.6L18 33.2l-3.6-11.6L2.8 18l11.6-3.6L18 2.8Z" fill="currentColor"/><circle cx="18" cy="18" r="3.1" fill="#101311"/></svg></span>
+          <span class="brand-name">starstart<span class="brand-period">.</span></span>
+        </a>
+        <p>Good work begins with a little more room.</p>
+        <a class="footer-back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+      <div class="footer-bottom"><span>© 2026 STARSTART. EARLY STAGE, OPEN MINDS.</span><span>CLAUDE API INTEGRATION · EARLY STAGE <span class="footer-lime">✳</span></span><a href="mailto:hello@starstart.world">SAY HELLO ↗</a></div>
+    </footer>
+
+    <dialog class="contact-dialog" id="contact-dialog" aria-labelledby="contact-title">
+      <form class="contact-form" id="contact-form">
+        <button class="dialog-close" type="button" aria-label="Close">×</button>
+        <div class="eyebrow eyebrow-ink"><span class="eyebrow-star">✳</span> Let’s start a conversation</div>
+        <h2 id="contact-title">Tell us what you’re building.</h2>
+        <p class="dialog-copy">Share a little about your team and the work you’d love to make lighter. Your email app will open with a note addressed to StarStart.</p>
+        <label for="contact-name">Your name</label>
+        <input id="contact-name" name="name" autocomplete="name" required maxlength="100" placeholder="Sam Nguyen">
+        <label for="contact-email">Work email</label>
+        <input id="contact-email" name="email" type="email" autocomplete="email" required maxlength="160" placeholder="sam@yourcompany.com">
+        <label for="contact-note">What kind of work would you like help with?</label>
+        <textarea id="contact-note" name="note" required maxlength="800" rows="3" placeholder="A repeatable task that takes more time than it should…"></textarea>
+        <button class="button button-dark dialog-submit" type="submit">Prepare your email <span aria-hidden="true">↗</span></button>
+        <div class="dialog-privacy">Your details are not saved by this preview.</div>
+      </form>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
+
