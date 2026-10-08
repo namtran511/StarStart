@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+
+# Keep the previous Java exercise out of the StarStart website repository.
+/src/
+/target/
+/pom.xml
+/test-plan.md
+
